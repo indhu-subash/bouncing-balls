@@ -1,3 +1,10 @@
+console.log("Script loaded");
+
+const canvas = document.querySelector("canvas");
+console.log(canvas);
+
+const ctx = canvas.getContext("2d");
+console.log(ctx);
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
 
